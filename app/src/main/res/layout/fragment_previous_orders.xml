@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.banice.laundry254.user.fragments.Previous_orders">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/previousordersviewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:tabMode="fixed"
+        android:id="@+id/tablayout"
+        android:background="@color/colorPrimaryDark"
+        android:theme="@style/AppTheme.PopupOverlay1"
+        android:elevation="20dp">
+
+    </com.google.android.material.tabs.TabLayout>
+
+</RelativeLayout>
